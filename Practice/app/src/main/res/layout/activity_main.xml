@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/movieSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Select Movie"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/movieSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:id="@+id/theatreSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Select Theatre"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/theatreSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time" />
+
+    <TextView
+        android:id="@+id/ticketTypeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Ticket Type"
+        android:textSize="16sp" />
+
+    <Switch
+        android:id="@+id/switchTicketType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Standard" />
+
+    <Button
+        android:id="@+id/bookNowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Book Now" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Reset" />
+
+
+
+</LinearLayout>

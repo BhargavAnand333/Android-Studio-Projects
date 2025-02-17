@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/workout_plans"
+        android:icon="@drawable/pic3"
+        android:title="Workout Plans"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/trainers"
+        android:icon="@drawable/pic2"
+        android:title="Trainers"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/membership"
+        android:icon="@drawable/pic1"
+        android:title="Membership"
+        app:showAsAction="ifRoom" />
+</menu>
